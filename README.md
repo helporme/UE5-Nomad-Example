@@ -10,6 +10,8 @@ UE5-Nomad-Example is a single-player ARTS example project for Unreal Engine 5 im
 
 All visual assets are included from the Starter Content pack, [Mannequins pack](https://www.unrealengine.com/marketplace/en-US/product/mannequins-asset-pack), [icons8](https://icons8.com/), created by my friend (Meshes & Textures), or me.
 
+The project is being developed on the current [UnrealEngine 5.2 branch](https://github.com/EpicGames/UnrealEngine/tree/5.2), later it will move to the release branch.
+
 ## Input
 Normal mode:
 
