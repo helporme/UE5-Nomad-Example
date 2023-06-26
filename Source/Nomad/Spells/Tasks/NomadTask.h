@@ -7,7 +7,7 @@
 #include "NomadTask.generated.h"
 
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FTransformDelegate);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FFinishDelegate);
 
 /*
  * The NomadTask exposes AbilityTask to the blueprint. 
@@ -58,7 +58,7 @@ class NOMAD_API UNomadTask : public UAbilityTask
 
     public:
 		UPROPERTY(BlueprintAssignable)
-		FTransformDelegate OnFinished;
+		FFinishDelegate OnFinished;
 
         UFUNCTION(BlueprintCallable, Category = "Task|Events", DisplayName = "Finish Task")
         void Finish();
