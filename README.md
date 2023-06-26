@@ -29,17 +29,17 @@ Spell targeting mode:
 
 
 ## Gameplay systems covered
- * [Spell targeting](https://github.com/HelpOrMe/UE5-Nomad-Example/blob/main/Source/Nomad/Spells/Targeting/SpellTarget.h) (GameplayAbilityTargetActor)
- * [Spell reticles](https://github.com/HelpOrMe/UE5-Nomad-Example/blob/main/Source/Nomad/Spells/Targeting/SpellReticle.h) (GameplayAbilityWorldReticles)
+ * [Spell targeting](Source/Nomad/Spells/Targeting/SpellTarget.h) (GameplayAbilityTargetActor)
+ * [Spell reticles](Source/Nomad/Spells/Targeting/SpellReticle.h) (GameplayAbilityWorldReticles)
  * Spell visualization (GameplayCue)
- * [Spell input](https://github.com/HelpOrMe/UE5-Nomad-Example/blob/main/Source/Nomad/NomadPlayerController.h) (Binding EnhancedInput to the GAS input)
- * [Spell cast stages](https://github.com/HelpOrMe/UE5-Nomad-Example/blob/main/Source/Nomad/Spells/NomadSpell.h)
+ * [Spell input](Source/Nomad/NomadPlayerController.h) (Binding EnhancedInput to the GAS input)
+ * [Spell cast stages](Source/Nomad/Spells/NomadSpell.h)
  * Spell cast montages (with blending and cast time adjusting)
- * [Spell logic](https://github.com/HelpOrMe/UE5-Nomad-Example/blob/main/Source/Nomad/Spells/Tasks/NomadTask.h) (Ability tasks exposed to blueprints)
+ * [Spell logic](Source/Nomad/Spells/Tasks/NomadTask.h) (Ability tasks exposed to blueprints)
  * Passive spells (auto-triggering)
  * Sending information between spells
  * Implementation of movement via abilities
- * [Interactable UI](https://github.com/HelpOrMe/UE5-Nomad-Example/tree/main/Source/Nomad/Spells/Widgets)
+ * [Interactable UI](Source/Nomad/Spells/Widgets)
 
 ## Useful projects
  * [GASDocumentation](https://github.com/tranek/GASDocumentation)
