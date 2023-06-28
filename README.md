@@ -41,7 +41,7 @@ Spell targeting mode:
  * Passive spells (auto-triggering)
  * Sending information between spells
  * Implementation of movement via abilities
- * [Interactable UI](Source/Nomad/Spells/Widgets)
+ * [Interactive UI](Source/Nomad/Spells/Widgets)
 
 ## Useful projects
  * [GASDocumentation](https://github.com/tranek/GASDocumentation)
